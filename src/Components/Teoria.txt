@@ -1,0 +1,12 @@
+el manejo de imágenes en react con assetr consiste en:
+	importar la imagen a la carpeta assert las imágenes a utilizar
+	en el componente al cual se van a importar las imágenes se utiliza la sintaxis "import + nombre a usar de la imagen + from + ruta 	donde esta la imagen, ej...'../../assets/logo.svg' "
+La sintaxis de la exportación nominal es:
+	en logar de usar el export al final por defecto se coloca al inicio
+	export const Section = () => {
+  	return (
+    	  <div>
+          </div>
+  	)
+	}
+	y la exportación en App es con {} ej...import { ProductoCard } from './Components/ProductoCard/ProductoCard.jsx'
